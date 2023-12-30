@@ -1,0 +1,22 @@
+Import:
+	import lib.Console.Write;
+	import lib.Math.Random;
+	import lib.Console.Read;
+	
+Set Aleas:
+	Write write = new Write();
+    Random random = new Random();
+    Read read = new Read();
+	
+Use:
+	write.arrayInt1(ARRAY_ID);
+    write.emtyln(ANZAHL_DER_ZEILEN);
+    write.arrayInt2(ARRAY_ID);
+	
+	random.rndInt(MIN,MAX);
+	
+	String in = read.nextLine(ERROR_MSG);
+
+
+
+	hallo
