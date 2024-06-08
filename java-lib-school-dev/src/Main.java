@@ -15,8 +15,8 @@ public class Main {
         Random rnd = new Random();
         Read read = new Read();
 
-        write.setPrifix("Präfix ");
-        write.setSufix(" Sufix");
+        write.setPrefix("Präfix ");
+        write.setSuffix(" Sufix");
 
         write.arrayInt1(hallo);
         write.emtyln(2);

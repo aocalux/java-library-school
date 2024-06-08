@@ -7,8 +7,8 @@ public class Write {
     String prifixGolbal = "";
     String sufixGlobal = "";
 
-    public void setPrifix(String prifix) { this.prifixGolbal = prifix; }
-    public void setSufix(String sufix) { this.sufixGlobal = sufix; }
+    public void setPrefix(String prifix) { this.prifixGolbal = prifix; }
+    public void setSuffix(String sufix) { this.sufixGlobal = sufix; }
 
     public void arrayInt1(int[] array) {
 
